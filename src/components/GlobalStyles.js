@@ -6,6 +6,7 @@ const darkPrimaryColor = "#00AD7C";
 const lightColor = "#FFFFFF";
 const accentColor = "#B5FF7D";
 const textColor = "#212121";
+const footerBlack = "36393E";
 const GlobalStyle = createGlobalStyle`
   *{
     margin: 0;
