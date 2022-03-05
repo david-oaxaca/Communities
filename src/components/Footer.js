@@ -1,4 +1,8 @@
 import React from "react";
+import styled from "styled-components";
+import urlLogo from "../assets/img/Communities_logo.svg";
+import { Link } from "react-router-dom";
+import { MainButton } from "./MainButton";
 import {
 	accentColor,
 	darkPrimaryColor,
@@ -7,7 +11,7 @@ import {
 	titlesFont,
 	footerBlack
 } from "./GlobalStyles";
-const Styledheader = styled.header`
+const Styledheader = styled.footer`
 	width: 100%;
 	height: 40px;
 	display: flex;
@@ -33,9 +37,9 @@ const Styledheader = styled.header`
 function Footer() {
 	return (
 	<footer>
-		
-		Footer
-
+		<div></div>
+		<div></div>
+		<div></div>
 	</footer>
 	);
 }
