@@ -9,38 +9,47 @@ import {
 	primaryColor,
 	textFont,
 	titlesFont,
-	footerBlack
+	footerBlack,
+	lightColor
 } from "./GlobalStyles";
-const Styledheader = styled.footer`
+const Styledfooter = styled.footer`
 	width: 100%;
-	height: 40px;
+	height: auto;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	//background-color: red;
-	img {
-		width: 300px;
-		height: 40px;
-	}s
+	background-color: ${footerBlack};
+
+	div {
+		display: grid;
+		grid-template-rows: 3fr;
+	}
 
 	a {
 		font-family: ${textFont};
-		color: ${darkPrimaryColor};
+		color: #FFFFFF;
 		font-size: 1.6rem;
 		margin-right: 20px;
 		&:hover {
 			color: ${primaryColor};
 		}
 	}
+	
 `;
 
 function Footer() {
 	return (
-	<footer>
-		<div></div>
-		<div></div>
-		<div></div>
-	</footer>
+	<Styledfooter>
+		<div>
+			<a href="">Terminos y condiciones</a>
+		</div>
+		<div>
+			<a href="">Acerca de nosotros</a>
+		</div>
+		<div>
+			<a href="">Acuerdos de servicio</a>
+		</div>
+	</Styledfooter>
 	);
 }
 
