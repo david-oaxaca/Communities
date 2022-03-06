@@ -8,7 +8,7 @@ function Login() {
 	return (
 		<div>
 			<form id="form-registro">
-				<div>
+				<div className="Center">
 					<div className="Center">
 						<span className="StyleTitle">Login</span>
 					</div><br/><br/>
@@ -25,7 +25,7 @@ function Login() {
 
 					<div className="Center">
                     <span className="StyleText Underline">¿Olvidaste tu contraseña?</span><br/><br/>
-						<MainButton text='Iniciar sesión' />
+						<MainButton text='Iniciar sesión' /><br/><br/>
 					</div>
 				</div>
 			</form>

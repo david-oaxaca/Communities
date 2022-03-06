@@ -8,7 +8,7 @@ function Register() {
 	return (
 		<div>
 			<form id="form-registro">
-				<div>
+				<div className="Center">
 					<div className="Center">
 						<span className="StyleTitle">Registro</span>
 					</div><br/><br/>
@@ -41,7 +41,7 @@ function Register() {
 
 					<div className="Center">
 						<MainButton text='Registrarse' />
-					</div>
+					</div><br/><br/>
 				</div>
 			</form>
 		</div>
