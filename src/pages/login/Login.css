@@ -32,6 +32,10 @@
     font-family: "'Inter', sans-serif";
 }
 
+.Underline {
+    text-decoration: underline;
+}
+
 .DivLine {
     display: inline-block;
 }

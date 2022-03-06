@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Landing } from "./Landing";
 import { Layout } from "../components/Layout";
 import { Register } from "./login/Register";
+import { Login } from "./login/Login";
+
 function App() {
 	return (
 		<>
@@ -15,6 +17,7 @@ function App() {
 					</Routes>
 				</Layout>
 				{/*<Register></Register>*/}
+				{/*<Login></Login>*/}
 			</BrowserRouter>
 		</>
 	);

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 //import { darkPrimaryColor, lightColor, textFont } from "../GlobalStyles";
 import { MainButton } from "../../components/MainButton";
-import './Register.css'
+import './Login.css'
 
 function Register() {
 	return (
