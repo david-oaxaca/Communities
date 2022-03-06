@@ -1,0 +1,41 @@
+.StyleTitle {
+    color: #21A642;
+    font-size: 3.4rem;
+    font-family: "'Inter', sans-serif";
+}
+
+.InputTextLarge {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 12px;
+    border-color: #00AD7C;
+	width: 300px;
+	height: 30px;
+	font-size: 1.4rem;
+	font-family: "'Inter', sans-serif";
+}
+
+.InputText {
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 12px;
+    border-color: #00AD7C;
+	width: 140px;
+	height: 30px;
+	font-size: 1.4rem;
+	font-family: "'Inter', sans-serif";
+}
+
+.StyleText {
+    color: #00AD7C;
+    font-size: 1.4rem;
+    font-family: "'Inter', sans-serif";
+}
+
+.DivLine {
+    display: inline-block;
+}
+
+.Center {
+    text-align: center;
+}
