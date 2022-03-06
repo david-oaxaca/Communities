@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import urlLogo from "../assets/img/Communities_logo.svg";
+import urlLogo from "../assets/img/logo.jpeg";
 import { Link } from "react-router-dom";
 import { MainButton } from "./MainButton";
 import {
@@ -12,23 +12,33 @@ import {
 } from "./GlobalStyles";
 const Styledheader = styled.header`
 	width: 100%;
-	height: 40px;
+	height: 55px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	//background-color: red;
+	border-bottom: 2px solid ${darkPrimaryColor};
+
 	img {
-		width: 300px;
-		height: 40px;
+		width: 320px;
+		margin-left: 20px;
 	}
 
-	a {
-		font-family: ${textFont};
-		color: ${darkPrimaryColor};
-		font-size: 1.6rem;
-		margin-right: 20px;
-		&:hover {
-			color: ${primaryColor};
+	div {
+		margin-right: 35px;
+		a {
+			font-family: ${textFont};
+			color: ${darkPrimaryColor};
+			font-size: 1.6rem;
+			margin-right: 20px;
+			&:hover {
+				color: ${primaryColor};
+			}
+		}
+	}
+	@media (max-width: 700px) {
+		justify-content: center;
+		div {
+			display: none;
 		}
 	}
 `;
