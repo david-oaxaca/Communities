@@ -14,10 +14,8 @@ function App() {
 			<BrowserRouter>
 				<Layout>
 					<Routes>
-<<<<<<< HEAD
 						{/* <Route exact path='/landing' element={<Landing />} /> */}
-						<Route exact path='/Registro' element={<Register/>}/>
-=======
+						<Route exact path='/Registro' element={<Register />} />
 						<Route exact path='/landing' element={<Landing />} />
 						<Route
 							exact
@@ -25,7 +23,6 @@ function App() {
 							element={<YourCommunities />}
 						/>
 						<Route exact path='/find-community' element={<SearchCommunity />} />
->>>>>>> FaNFTy-mania-cards
 					</Routes>
 				</Layout>
 				{/*<Register></Register>*/}
