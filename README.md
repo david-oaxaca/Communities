@@ -71,4 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # Communities
 Proyecto desarrollado para Poli Hacks 2022
->>>>>>> 9b28846c3803719091f860a6cdbeb18af1bbc6e5
