@@ -7,6 +7,7 @@ const lightColor = "#FFFFFF";
 const accentColor = "#B5FF7D";
 const textColor = "#212121";
 const footerBlack = "36393E";
+const cardsColor = "#F4F3F3";
 const GlobalStyle = createGlobalStyle`
   *{
     margin: 0;
@@ -17,14 +18,15 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
   }
   #root{
-    display: grid;
     width: 100vw;
-    height: 100vh;
-    place-items: center;
+    //height: 100vh;
     font-family: ${textFont};
-    
-    
   }
+
+  body{
+    overflow-x:hidden;
+  }
+  
 `;
 
 export {
@@ -36,4 +38,5 @@ export {
 	textColor,
 	accentColor,
 	lightColor,
+	cardsColor,
 };
