@@ -18,6 +18,8 @@ const Styledfooter = styled.footer`
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px; 
 	background-color: ${footerBlack};
 
 	div {
@@ -25,13 +27,21 @@ const Styledfooter = styled.footer`
 		grid-template-rows: 3fr;
 	}
 
+	h1 {
+		font-family: ${textFont};
+		color: #FFFFFF;
+	}
+
 	a {
 		font-family: ${textFont};
 		color: #FFFFFF;
 		font-size: 1.6rem;
 		margin-right: 20px;
+		margin-top: 10px;
+		text-decoration: none;
 		&:hover {
 			color: ${primaryColor};
+			text-decoration: underline;
 		}
 	}
 	
@@ -41,13 +51,19 @@ function Footer() {
 	return (
 	<Styledfooter>
 		<div>
-			<a href="">Terminos y condiciones</a>
+			<h1>Terminos y condiciones</h1>
+			<a href="#">Obligaciones legales del FaNFTy team</a>
+			<a href="#">Aviso de privacidad</a>
 		</div>
 		<div>
-			<a href="">Acerca de nosotros</a>
+			<h1>Acerca de nosotros</h1>
+			<a href="">Contacta al equipo</a>
+			<a href="">Siguenos</a>
 		</div>
 		<div>
-			<a href="">Acuerdos de servicio</a>
+			<h1>Acuerdos de servicio</h1>
+			<a href="#">Funciones y uso de la aplicación</a>
+			<a href="#">Contacto legal</a>
 		</div>
 	</Styledfooter>
 	);
